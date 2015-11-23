@@ -1,0 +1,41 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>OpenSearch search engine definitions</title>
+<meta name=description content="List of OpenSearch search engine definitions">
+<style>
+  html { font-family:monospace; font-size:1.25em; line-height:1.3rem }
+  ul, li { margin-left:0; padding-left:0 }
+  ul { padding-left:1.25rem }
+  span { white-space:nowrap }
+</style>
+<script>
+'use strict';
+function f(evt, url){ javascript:window.external.AddSearchProvider(url); evt.preventDefault() }
+
+function n(url){
+  var a = document.createElement('a')
+  a.href = url
+  a.onclick = function(evt){f(evt,url)}
+  a.textContent = url
+  document.querySelector('ul').appendChild(document.createElement('li')).appendChild(a)
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  n('https://duckduckgo.com/opensearch.xml')
+  n("Disconnect Me (google, us).xml")
+  n("StartPage (en).xml")
+  n("Ixquick (en).xml")
+  n("https://en.wikipedia.org/w/opensearch_desc.php")
+  n("http://caniuse.com/opensearch.xml")
+})
+
+</script>
+
+<p>Click on any of the following <em><a href="http://www.opensearch.org/Specifications/OpenSearch/1.1#OpenSearch_description_document">OpenSearch</a> search engine definitions</em> to add that search engine to your browser:</p>
+
+<ul>
+</ul>
+
+<hr>
+
+<p>Add/fix the definitions? <span>--&#62; <a href="https://github.com/gima/opensearch">https://github.com/gima/opensearch</a></span></p>

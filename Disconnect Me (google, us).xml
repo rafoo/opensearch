@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Disconnect Me (google, us)</ShortName>
+  <Image width="16" height="16">https://disconnect.me/favicon.ico</Image>
+  
+  <Url type="text/html" method="get" template="https://search.disconnect.me/searchTerms/search?location=US&amp;query={searchTerms}&amp;ses_nojs=Google&amp;create=&amp;location_option=US&amp;lang=&amp;option=&amp;from_homepage=&amp;from_form=true&amp;source=&amp;showIcons=&amp;filterIcons=&amp;js_enabled=1&amp;ses=Google"/>
+  
+  <x-Url type="application/x-suggestions+json" method="get" template="https://search.disconnect.me/searchTerms/suggest?query={searchTerms}&amp;location=US"/>
+</OpenSearchDescription>
