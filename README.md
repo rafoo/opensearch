@@ -1,20 +1,20 @@
 ## Overview
 
-This repository contains a website for *OpenSearch search engine definitions* that can be added to the web browser as search engines via the website.
+This repository contains a website that lists search engines, which can be added to the web browser by clicking on them.
 
-Available at:  
+Website available at:  
 http://gima.github.io/opensearch/
 
 
 ## Contributing
 
-If the search engine that you wish to add already provides an OpenSearch xml file, you only need add it's url to the [`index.html`](https://github.com/gima/opensearch/blob/gh-pages/index.html).
+If the search engine that you wish to add already provides an *OpenSearch search engine definition* xml file, you only need add it's url to the [`index.html`](https://github.com/gima/opensearch/blob/gh-pages/index.html).
 
 Otherwise you need to create one. It's probably easiest to make a copy of one of the provided xml's and modify it. Then add it to the index as instructed above.
 
 #### Example:
 
-Search Engine [DuckDuckGo's HTML version](https://duckduckgo.com/html) has opensearch definition xml file in it's source code:
+The search engine [DuckDuckGo's HTML version](https://duckduckgo.com/html) has OpenSearch definition xml file in it's source:
 
 ~~~html
 <link .. type="application/opensearchdescription+xml" rel="search" href="/opensearch_html.xml">
