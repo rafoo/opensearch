@@ -8,7 +8,7 @@ http://gima.github.io/opensearch/
 
 ## Contributing
 
-If the search engine that you wish to add already provides an *OpenSearch search engine definition* xml file, you only need add it's url to the [`index.html`](https://github.com/gima/opensearch/blob/gh-pages/index.html).
+If the search engine that you wish to add already provides an *OpenSearch search engine definition* xml file, you only need add it's url to the [`index.html`](docs/index.html).
 
 Otherwise you need to create one. It's probably easiest to make a copy of one of the provided xml's and modify it. Then add it to the index as instructed above.
 
