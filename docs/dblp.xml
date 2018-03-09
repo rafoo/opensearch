@@ -4,7 +4,7 @@
   <ShortName>dblp</ShortName>
   <Description>Computer Science Bibliography</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://gima.github.io/opensearch/</Image>
+  <Image width="16" height="16" type="image/x-icon">https://gima.github.io/opensearch/dblp.ico</Image>
   <Url type="text/html" method="get" template="http://dblp.uni-trier.de/search">
     <Param name="q" value="{searchTerms}"/>
   </Url>
